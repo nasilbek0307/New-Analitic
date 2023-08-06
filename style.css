@@ -1,0 +1,438 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+}
+
+a {
+  all: unset;
+}
+
+header {
+  padding-bottom: 258px;
+  padding-top: 50px;
+  background: url(./images/Subtract.svg), url(./images/Subtract1.svg), linear-gradient(173deg, #172755 75%, #EF2A82 75% 76.5%, transparent 76.5% 100%);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat, no-repeat;
+}
+header nav .container {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+header nav .container input {
+  display: none;
+}
+header nav .container .navbar-left {
+  display: flex;
+  gap: 82px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header nav .container .navbar-left #ullar {
+  display: flex;
+  overflow: hidden;
+}
+header nav .container .navbar-left #ullar ul {
+  display: flex;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+header nav .container .navbar-left #ullar ul li {
+  list-style: none;
+}
+header nav .container .navbar-left #ullar ul li a {
+  color: var(--text-secondary, #8794BA);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header nav .container .navbar-right {
+  gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header nav .container .navbar-right label {
+  display: none;
+}
+header nav .container .navbar-right a {
+  color: var(--text-secondary, #8794BA);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  list-style: none;
+}
+header nav .container .navbar-right .sign-up {
+  padding: 10px 53px;
+  text-align: center;
+  border-radius: 68px;
+  border: 1px solid #465B95;
+}
+header section .container {
+  gap: 81px;
+}
+header section .container .img {
+  display: none;
+}
+header section .container .text {
+  max-width: 550px;
+  padding-top: 163px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+header section .container .text .sec1-tex {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+header section .container .text .sec1-tex h1 {
+  color: #FFF;
+  /* text / H1 */
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  /* 60px */
+}
+header section .container .text .sec1-tex p {
+  color: var(--text-secondary, #8794BA);
+  /* text / body */
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 27px */
+}
+header section .container .text a {
+  width: 78px;
+  padding: 16px 80px;
+  border-radius: 68px;
+  background: #EF2A82;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header section .container .pic {
+  position: absolute;
+  right: 0;
+}
+header section .container .pic img:nth-child(1) {
+  position: absolute;
+  top: 123px;
+  right: 341px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 130px;
+}
+main #Features {
+  padding-top: 38px;
+}
+main #Features .container {
+  flex-direction: column;
+  align-items: center;
+  gap: 81px;
+}
+main #Features .container #tex {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main #Features .container #tex h2 {
+  color: var(--text-main, #172755);
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main #Features .container #tex p {
+  color: var(--text-secondary, #8794BA);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 27px */
+}
+main #Features .container .cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+main #Features .container .cards .card {
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  align-items: center;
+}
+main #Features .container .cards .card .text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+main #Features .container .cards .card .text h2 {
+  color: var(--text-main, #172755);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main #Features .container .cards .card .text p {
+  color: var(--text-secondary, #8794BA);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 22.4px */
+}
+main #screnshot {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+main #screnshot .container {
+  gap: 100px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main #screnshot .container .tex {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 480px;
+}
+main #screnshot .container .tex h2 {
+  max-width: 480px;
+  color: var(--text-main, #172755);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main #screnshot .container .tex p {
+  color: var(--text-secondary, #8794BA);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 27px */
+}
+main #screnshot .container .img {
+  max-width: 600px;
+  border-radius: 30px;
+  background: #FFF;
+  /* card / shadow */
+  box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+  padding: 51px 69px;
+}
+
+footer {
+  padding-top: 50px;
+  background: url(./images/Subtract\ \(2\).svg), linear-gradient(-3deg, #172755 75%, #EF2A82 75% 76.5%, transparent 76.5% 100%);
+  background-position: bottom right;
+  background-repeat: no-repeat, no-repeat;
+}
+footer section .container {
+  justify-content: center;
+  flex-direction: column;
+  gap: 80px;
+}
+footer section .container #tex {
+  max-width: 1060px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer section .container #tex h2 {
+  padding-top: 430px;
+  color: var(--text-main, white);
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+footer section .container #tex p {
+  color: var(--text-secondary, #8794BA);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 27px */
+}
+footer section .container .card-box {
+  display: flex;
+  gap: 80px;
+}
+footer section .container .card-box .card {
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  border-radius: 30px;
+  padding-top: 50px;
+  padding-left: 67.5px;
+  padding-right: 67.5px;
+  padding-bottom: 70px;
+  background: #0F1F4B;
+  /* card / shadow */
+  box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+}
+footer section .container .card-box .card .top h3 {
+  color: #FFF;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+footer section .container .card-box .card .top p {
+  color: var(--text-secondary, #8794BA);
+  text-align: center;
+  /* text / body */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 27px */
+}
+footer section .container .card-box .card .line {
+  width: 220px;
+  height: 1px;
+  flex-shrink: 0;
+  background: #2A407C;
+}
+footer section .container .card-box .card .bottom h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+footer section .container .card-box .card .bottom h2 b {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+footer section .container .card-box .card .bottom p {
+  color: var(--text-secondary, #8794BA);
+  text-align: center;
+  /* text / small */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 22.4px */
+}
+footer section .container .card-box .card a {
+  padding: 15px 80px;
+  border-radius: 68px;
+  border: 1px solid #2A407C;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer section .container .card-box .card:hover {
+  background-color: #fff;
+  /* card / shadow */
+  box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+}
+footer section .container .card-box .card:hover .top h3 {
+  color: #172755;
+}
+footer section .container .card-box .card:hover .bottom h2 {
+  color: #172755;
+}
+footer section .container .card-box .card:hover .bottom h2 b {
+  color: #172755;
+}
+footer section .container .card-box .card:hover a {
+  padding: 15px 80px;
+  border-radius: 68px;
+  border: 1px solid #EF2A82;
+  background-color: #EF2A82;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer section .container .Line {
+  max-width: 1180px;
+  height: 1px;
+  flex-shrink: 0;
+  justify-content: center;
+  background: #2A407C;
+}
+footer section .container .foot-bar {
+  gap: 308.5px;
+  display: flex;
+  padding-bottom: 103px;
+  justify-content: space-between;
+}
+footer section .container .foot-bar .navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 305.48px;
+}
+footer section .container .foot-bar .navbar-left #ullar {
+  display: flex;
+  flex-direction: column;
+}
+footer section .container .foot-bar .navbar-left #ullar ul {
+  display: flex;
+  gap: 36px;
+}
+footer section .container .foot-bar .navbar-left #ullar ul li {
+  display: flex;
+}
+footer section .container .foot-bar .navbar-left #ullar ul li a {
+  all: unset;
+  text-align: center;
+  color: var(--text-secondary, #7f8aac);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer section .container .foot-bar .navbar-right {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+footer section .container .foot-bar .navbar-right img {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */

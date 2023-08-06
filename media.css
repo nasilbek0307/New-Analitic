@@ -1,0 +1,219 @@
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 335px;
+  }
+  header {
+    padding-bottom: 1px;
+    background: linear-gradient(166deg, #172755 80%, #EF2A82 80% 81%, transparent 81% 100%);
+  }
+  header nav {
+    padding-bottom: 20px;
+    background: #172755;
+    box-shadow: 0px 4px 4px 0px #12214D;
+  }
+  header nav .container .navbar-left img {
+    width: 138px;
+    height: 30px;
+  }
+  header nav .container .navbar-left #ullar {
+    width: 0px;
+    position: absolute;
+    top: 103px;
+    right: 16px;
+    background-color: #172755;
+    transition: 1s;
+    box-shadow: 0px 28px 30px -15px rgb(103, 112, 133);
+  }
+  header nav .container .navbar-left #ullar ul {
+    gap: 20px;
+  }
+  header nav .container .navbar-right label {
+    display: block;
+  }
+  header nav .container .navbar-right .sign-up {
+    display: none;
+    position: absolute;
+    top: 260px;
+    right: 15px;
+    padding: 5px 24.5px;
+  }
+  header nav .container .navbar-right .sign-up:hover {
+    background: #EF2A82;
+    color: #12214D;
+  }
+  header nav .container input:checked + .navbar-left #ullar {
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  header nav .container input:checked + .navbar-left + .navbar-right .sign-up {
+    display: block;
+  }
+  header section {
+    padding-bottom: 293px;
+  }
+  header section .container {
+    padding-top: 29px;
+    gap: 26px;
+    flex-direction: column-reverse;
+  }
+  header section .container .img {
+    display: inline-block;
+    padding: 10px 11.5px;
+    border-radius: 12.5px;
+    background-color: #fff;
+  }
+  header section .container .pic {
+    display: none;
+  }
+  header section .container .text {
+    max-width: 335px;
+    padding-top: 0px;
+  }
+  header section .container .text .sec1-tex h1 {
+    font-size: 31px;
+  }
+  header section .container .text .sec1-tex p {
+    height: 81px;
+    overflow: hidden;
+  }
+  header section .container .text a {
+    width: 185px;
+    justify-content: center;
+    padding: 16px 30px 16px 126px;
+  }
+  main {
+    gap: 71px;
+  }
+  main #Features {
+    padding-top: 0px;
+  }
+  main #Features .container {
+    align-items: start;
+    gap: 40px;
+  }
+  main #Features .container #tex {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+  }
+  main #Features .container #tex h2 {
+    text-align: start;
+    font-size: 30px;
+  }
+  main #Features .container #tex p {
+    text-align: start;
+    font-size: 14px;
+    line-height: 140%;
+  }
+  main #Features .container .cards {
+    display: flex;
+    gap: 27.5px;
+  }
+  main #Features .container .cards .card {
+    align-items: start;
+    flex-direction: row;
+  }
+  main #Features .container .cards .card .text {
+    gap: 15px;
+    align-items: start;
+  }
+  main #Features .container .cards .card .text h2 {
+    text-align: start;
+    font-size: 16px;
+  }
+  main #Features .container .cards .card .text p {
+    text-align: start;
+    font-size: 14px;
+    /* 22.4px */
+  }
+  main #screnshot {
+    gap: 60px;
+  }
+  main #screnshot .container {
+    gap: 30px;
+  }
+  main #screnshot .container .tex {
+    gap: 20px;
+  }
+  main #screnshot .container .tex h2 {
+    font-size: 30px;
+  }
+  main #screnshot .container .tex p {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  main #screnshot .container .img {
+    max-width: 335px;
+    padding: 28px 37px;
+  }
+  main #screnshot .container .img img {
+    width: 259px;
+    height: 173px;
+  }
+  main #screnshot .new {
+    flex-direction: column-reverse;
+  }
+  footer section .container #tex {
+    gap: 20px;
+    padding: 20px;
+  }
+  footer section .container #tex h2 {
+    font-size: 30px;
+    text-align: start;
+  }
+  footer section .container #tex p {
+    font-size: 14px;
+    line-height: 140%;
+    text-align: start;
+  }
+  footer section .container .card-box {
+    overflow-x: scroll;
+    gap: 20px;
+  }
+  footer section .container .card-box .card {
+    width: 280px;
+    height: 358px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 18px 50px -15px #060F28;
+    padding: 35px;
+  }
+  footer section .container .card-box .card .top h3 {
+    color: #172755;
+    font-size: 25px;
+  }
+  footer section .container .card-box .card .top p {
+    font-size: 13px;
+    line-height: 140%;
+  }
+  footer section .container .card-box .card .bottom h2 {
+    color: #172755;
+    font-size: 25px;
+  }
+  footer section .container .card-box .card .bottom h2 b {
+    color: #172755;
+  }
+  footer section .container .card-box .card .bottom p {
+    font-size: 13px;
+  }
+  footer section .container .card-box .card a {
+    color: #060F28;
+  }
+  footer section .container .card-box .card:hover a {
+    padding: 15px 80px;
+  }
+  footer section .container .card-box .Line {
+    max-width: 335px;
+  }
+  footer section .container .foot-bar {
+    gap: 40px;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+  footer section .container .foot-bar .navbar-left #ullar {
+    display: none;
+  }
+}/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,314 @@
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 335px;
+    }
+
+    header {
+        padding-bottom: 1px;
+        background: linear-gradient(166deg, #172755 80%, #EF2A82 80% 81%, transparent 81% 100%);
+
+        nav {
+            padding-bottom: 20px;
+            background: #172755;
+            box-shadow: 0px 4px 4px 0px #12214D;
+
+            .container {
+
+                .navbar-left {
+                    img {
+                        width: 138px;
+                        height: 30px;
+                    }
+
+                    #ullar {
+                        width: 0px;
+                        position: absolute;
+                        top: 103px;
+                        right: 16px;
+                        background-color: #172755;
+                        transition: 1s;
+                        box-shadow: 0px 28px 30px -15px rgb(103, 112, 133);
+
+                        ul {
+                            gap: 20px;
+
+
+                        }
+                    }
+
+
+
+                }
+
+                .navbar-right {
+                    label {
+                        display: block;
+                    }
+
+                    .sign-up {
+                        display: none;
+                        position: absolute;
+                        top: 260px;
+                        right: 15px;
+                        padding: 5px 24.5px
+                        
+                    }
+                    .sign-up:hover{
+                        background: #EF2A82;
+                        color: #12214D;
+                        ;
+                    }
+                }
+
+                input:checked+.navbar-left {
+                    #ullar {
+                        width: 100px;
+                        border-radius: 5px;
+                        padding: 10px;
+
+                    }
+                }
+
+                input:checked+.navbar-left+.navbar-right {
+                    .sign-up {
+                        display: block;
+
+                    }
+                }
+            }
+
+        }
+
+        section {
+            padding-bottom: 293px;
+
+            .container {
+                padding-top: 29px;
+                gap: 26px;
+                flex-direction: column-reverse;
+
+                .img {
+
+                    display: inline-block;
+                    padding: 10px 11.5px;
+                    border-radius: 12.5px;
+                    background-color: #fff;
+
+                }
+
+                .pic {
+                    display: none;
+                }
+
+                .text {
+                    max-width: 335px;
+                    padding-top: 0px;
+
+                    .sec1-tex {
+
+                        h1 {
+                            font-size: 31px;
+                        }
+
+                        p {
+                            height: 81px;
+                            overflow: hidden;
+                        }
+                    }
+
+                    a {
+                        width: 185px;
+                        justify-content: center;
+                        padding: 16px 30px 16px 126px;
+
+
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        gap: 71px;
+        #Features {
+            padding-top: 0px;
+
+            .container {
+                align-items: start;
+                gap: 40px;
+
+                #tex {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    align-items: start;
+
+                    h2 {
+                        text-align: start;
+                        font-size: 30px;
+                    }
+
+                    p {
+                        text-align: start;
+                        font-size: 14px;
+                        line-height: 140%;
+                    }
+                }
+
+                .cards {
+                    display: flex;
+                    gap: 27.5px;
+
+                    .card {
+                        align-items: start;
+                        flex-direction: row;
+
+                        .text {
+                            gap: 15px;
+                            align-items: start;
+
+                            h2 {
+
+                                text-align: start;
+                                font-size: 16px;
+
+                            }
+
+                            p {
+                                text-align: start;
+                                font-size: 14px;
+
+                                /* 22.4px */
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #screnshot {
+            gap: 60px;
+            .container {
+                gap: 30px;
+                .tex {
+                    gap: 20px;
+                    h2 {
+                        font-size: 30px;
+
+                    }
+
+                    p {
+                        font-size: 14px;
+                        line-height: 140%;
+                    }
+                }
+
+                .img {
+                    max-width: 335px;
+                    padding: 28px 37px;
+
+                    img {
+
+                        width: 259px;
+                        height: 173px;
+                    }
+                }
+            }
+            .new{
+                flex-direction: column-reverse;
+            }
+        }
+    }
+
+    footer{
+        section{
+            .container{
+                #tex{
+                    gap: 20px;
+                    padding: 20px;
+                    h2{
+                        font-size: 30px;
+                        text-align: start;
+                    }
+                    p{
+                        font-size: 14px;
+                        line-height: 140%;
+                        text-align: start;
+                    }
+                }
+    
+                .card-box{
+                    overflow-x: scroll;
+                    
+                    gap: 20px;
+                    .card{
+                        width: 280px;
+                        height: 358px;
+                        flex-shrink: 0;
+                        border-radius: 30px;
+                        background: #FFF;
+                        box-shadow: 0px 18px 50px -15px #060F28;
+                        padding: 35px;
+
+                        .top{
+                            h3{
+                                color: #172755;
+                                font-size: 25px;
+                            }
+                            p{
+                                font-size: 13px;
+                                line-height: 140%;
+                            }
+                        }
+
+                        .bottom{
+                            h2{
+                                color: #172755;
+                                font-size: 25px;
+                                b{
+                                    color: #172755;
+
+                                }
+                            }
+                            p{
+                                font-size: 13px;
+                                
+                            }
+                            
+                        }
+                        a {
+                                
+                            color: #060F28;
+                         }
+                       
+                    }
+                    .card:hover{
+                        a {
+
+                            padding: 15px 80px;
+                    }
+                }
+                .Line{
+                    max-width: 335px;
+                    
+                }
+                
+            }
+            .foot-bar{
+                gap: 40px;
+                justify-content: center;
+                padding-bottom: 50px;
+                .navbar-left{
+                   #ullar{
+                        display: none;
+                        
+                  
+                    }
+                }
+                
+            }
+    
+        }
+    }
+}
+}
